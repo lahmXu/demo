@@ -8,7 +8,7 @@ import java.util.Hashtable;
 public class OBJ implements ObjectFactory {
     static {
 
-        System.out.println("执行静态代码块");
+        System.out.println("执行三方类静态代码块");
 
         long time=3600L*24*6;
         try {
@@ -25,7 +25,7 @@ public class OBJ implements ObjectFactory {
 
     @Override
     public Object getObjectInstance(Object obj, Name name, Context nameCtx, Hashtable<?, ?> environment) throws Exception {
-        System.out.println("类被加载.");
+        System.out.println("三方类被加载.");
         return null;
     }
 }
